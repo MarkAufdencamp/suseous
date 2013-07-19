@@ -1,0 +1,19 @@
+Start Django Project
+	django-admin.py startproject suSEOus
+	
+Start Django Server
+	python manage.py runserver
+	* http://localhost:8000/
+
+Run Django Unit Tests
+	python functional_tests.py
+	
+Add Django Project to GitHub
+	git init .
+	echo "*.pyc" > .gitignore
+	git add *
+	git commit -m "Initial Project Creation"
+	git push
+
+Start Django App
+	python manage.py startapp console
